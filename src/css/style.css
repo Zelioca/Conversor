@@ -1,0 +1,23 @@
+body {
+    background-color: #AED8E6;
+    padding: 0;
+    margin: 25px;
+}
+
+.cabecalho {
+    background-color: #FFFFFF;
+    padding: 1px 15px;
+    border-radius: 10px;
+}
+
+.resultado {
+    background-color: #FF00FF;
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+p {
+padding: 4px 0 0 10px;
+}

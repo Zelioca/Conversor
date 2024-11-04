@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="src/assets/img/favicon.png">
+    <title>Conversor de Unidade</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="cabecalho">
+            <h1>Conversor de Unidade</h1>
+        </div>
+        <br>
+        <div class="conversor">
+            <div class="inserir">
+                <input type="number" placeholder="Coloque um Valor..." id="valor">
+                <select id="opcao">
+                    <option selected value="milha">Kilometros para Milhas</option>
+                    <option value="kilometro">Milhas para Kilometros</option>
+                </select>
+                <button onclick="converter()">Converter</button>
+            </div>
+            <div class="resultado">
+                <p>Resultado: <span id="resultado">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
